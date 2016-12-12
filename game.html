@@ -1,0 +1,47 @@
+<html>
+<body background="back.jpg">
+<script>
+var count=0;
+function myFunction(id)   {
+var take=document.getElementById(id).style.visibility="hidden";
+count++;
+}
+function show()  {
+alert("Dear user your score is :" + count );
+location.reload();
+
+}
+</script>
+
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image1" onclick="myFunction(this.id)" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="traingle.PNG" style="width:100px;hight:100px" >
+<img src="traingle.PNG" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image2" onclick="myFunction(this.id)" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image3" onclick="myFunction(this.id)" style="width:100px;hight:100px" >
+<img src="traingle.PNG" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image4" onclick="myFunction(this.id)" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image5" onclick="myFunction(this.id)" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="traingle.PNG" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image6" onclick="myFunction(this.id)" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image7" onclick="myFunction(this.id)" style="width:100px;hight:100px" >
+<img src="traingle.PNG" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image8" onclick="myFunction(this.id)" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image9" onclick="myFunction(this.id)" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="rectangle.PNG" style="width:100px;hight:100px" >
+<img src="square.PNG" id="image10" onclick="myFunction(this.id)" style="width:100px;hight:100px" > <br /> <br />
+<input type="button" value="see scores" onclick="show()">
+</body>
+</html>
